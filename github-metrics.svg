@@ -342,7 +342,7 @@ Add specific datasets for Gandalf / Tensor Trust</div>
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="586.923 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="586.9333333333333 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
@@ -365,9 +365,9 @@ Add specific datasets for Gandalf / Tensor Trust</div>
                                 <div class="title">
                                     <span class="prefix">Master</span>
                                     maintainer
-                                    <span class="gh">ranked 140 out of 225m repositories</span>
+                                    <span class="gh">ranked 140 out of 222m repositories</span>
                                 </div>
-                                <div class="text">Maintaining a repository with 66799 stars</div>
+                                <div class="text">Maintaining a repository with 66800 stars</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -455,7 +455,7 @@ Add specific datasets for Gandalf / Tensor Trust</div>
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="126.16999999999999 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="126.47999999999999 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -477,7 +477,7 @@ Add specific datasets for Gandalf / Tensor Trust</div>
                                     <span class="prefix">Super</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 907 times</div>
+                                <div class="text">Repositories have been deployed 908 times</div>
                             </div>
                         </div>
                         <div class="achievement a largeable-width-half">
@@ -579,7 +579,7 @@ Add specific datasets for Gandalf / Tensor Trust</div>
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     developer
-                                    <span class="gh">ranked 972k out of 147m users</span>
+                                    <span class="gh">ranked 972k out of 146m users</span>
                                 </div>
                                 <div class="text">Published 43 public repositories</div>
                             </div>
