@@ -311,7 +311,7 @@ I'm very outside of my comfort zone of expertise, and I don't know how viable / 
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="596.75 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="596.7913333333333 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
@@ -334,9 +334,9 @@ I'm very outside of my comfort zone of expertise, and I don't know how viable / 
                                 <div class="title">
                                     <span class="prefix">Master</span>
                                     maintainer
-                                    <span class="gh">ranked 134 out of 219m repositories</span>
+                                    <span class="gh">ranked 134 out of 225m repositories</span>
                                 </div>
-                                <div class="text">Maintaining a repository with 67750 stars</div>
+                                <div class="text">Maintaining a repository with 67754 stars</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -385,7 +385,7 @@ I'm very outside of my comfort zone of expertise, and I don't know how viable / 
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="39.37 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="39.47333333333333 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -407,7 +407,7 @@ I'm very outside of my comfort zone of expertise, and I don't know how viable / 
                                     <span class="prefix">Master</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 1381 times</div>
+                                <div class="text">Repositories have been deployed 1382 times</div>
                             </div>
                         </div>
                         <div class="achievement a largeable-width-half">
@@ -548,7 +548,7 @@ I'm very outside of my comfort zone of expertise, and I don't know how viable / 
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     developer
-                                    <span class="gh">ranked 980k out of 148m users</span>
+                                    <span class="gh">ranked 980k out of 149m users</span>
                                 </div>
                                 <div class="text">Published 43 public repositories</div>
                             </div>
