@@ -368,7 +368,7 @@ That said, I'm interested in learning how I can best help to put this through it
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="598.9923333333334 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="599.0026666666666 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
@@ -391,9 +391,9 @@ That said, I'm interested in learning how I can best help to put this through it
                                 <div class="title">
                                     <span class="prefix">Master</span>
                                     maintainer
-                                    <span class="gh">ranked 133 out of 226m repositories</span>
+                                    <span class="gh">ranked 133 out of 221m repositories</span>
                                 </div>
-                                <div class="text">Maintaining a repository with 67967 stars</div>
+                                <div class="text">Maintaining a repository with 67968 stars</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -442,7 +442,7 @@ That said, I'm interested in learning how I can best help to put this through it
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="50.736666666666665 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="50.84 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -464,7 +464,7 @@ That said, I'm interested in learning how I can best help to put this through it
                                     <span class="prefix">Master</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 1491 times</div>
+                                <div class="text">Repositories have been deployed 1492 times</div>
                             </div>
                         </div>
                         <div class="achievement a largeable-width-half">
