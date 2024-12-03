@@ -121,7 +121,7 @@
                     <rect mask="url(#languages-bar)" x="369.45171445366077" y="0" width="27.520083600026123" height="8" fill="#178600"/>
                     <rect mask="url(#languages-bar)" x="396.9717980536869" y="0" width="23.148115733786167" height="8" fill="#555555"/>
                     <rect mask="url(#languages-bar)" x="420.119913787473" y="0" width="22.948625171445368" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="443.0685389589184" y="0" width="16.931461041081576" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="443.0685389589184" y="0" width="16.931461041081576" height="8" fill="#663399"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -168,7 +168,7 @@
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#563d7c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                            <path fill="#663399" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         CSS
                     </div>
@@ -326,7 +326,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="606.236 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="606.2566666666667 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
@@ -349,9 +349,9 @@
                                 <div class="title">
                                     <span class="prefix">Master</span>
                                     maintainer
-                                    <span class="gh">ranked 130 out of 227m repositories</span>
+                                    <span class="gh">ranked 130 out of 230m repositories</span>
                                 </div>
-                                <div class="text">Maintaining a repository with 68668 stars</div>
+                                <div class="text">Maintaining a repository with 68670 stars</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -400,7 +400,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="89.17666666666668 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="89.27999999999999 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -422,7 +422,7 @@
                                     <span class="prefix">Master</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 1863 times</div>
+                                <div class="text">Repositories have been deployed 1864 times</div>
                             </div>
                         </div>
                         <div class="achievement a largeable-width-half">
