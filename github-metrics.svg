@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1279" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1303" class="">
     <defs>
         <style/>
     </defs>
@@ -208,6 +208,33 @@
                                     </svg>
                                     <div class="content">
                                         Commented on
+                                        <span class="issue">#9833 llama : adds llama-grammar memoization stacks (#4218)</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by clarismiranda in <span class="repo">ggerganov/llama.cpp</span></div>
+                                    <div class="comment">
+                                        <i>Hi @HanClinto, here is the latest version of this branch profiling:
+...
+It still shows a time benefit and overall memory benefit.</i>
+                                        Hi @clarismiranda -- sorry for my delay in getting back to this.
+It's good that there is still a performance benefit here in
+                                        <code>llama-gbnf-validator</code>
+                                        , but I'm leery of adding complexity if it doesn't help with the primary path. Do you think there is anything you can do with this PR to help
+                                        <code>llama-cli</code>
+                                        to get a similar speedup?
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
                                         <span class="issue">#10321 Bug: llama-gbnf-validator parses grammar but gets a seg fault when validating an input string against the grammar</span>
                                     </div>
                                 </div>
@@ -295,26 +322,6 @@ My next step is to run your grammar through the parser and double check that it'
                                 </div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">HanClinto/WaterPAL</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#1cd5d18</div>
-                                        <div class="message">Upping the number of message retries from 10 to 30 for each message type.</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
@@ -337,7 +344,7 @@ My next step is to run your grammar through the parser and double check that it'
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="611.8263333333333 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="611.847 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
@@ -360,9 +367,9 @@ My next step is to run your grammar through the parser and double check that it'
                                 <div class="title">
                                     <span class="prefix">Master</span>
                                     maintainer
-                                    <span class="gh">ranked 128 out of 230m repositories</span>
+                                    <span class="gh">ranked 128 out of 232m repositories</span>
                                 </div>
-                                <div class="text">Maintaining a repository with 69209 stars</div>
+                                <div class="text">Maintaining a repository with 69211 stars</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -375,7 +382,7 @@ My next step is to run your grammar through the parser and double check that it'
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="117.18 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="117.28333333333335 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -397,7 +404,7 @@ My next step is to run your grammar through the parser and double check that it'
                                     <span class="prefix">Master</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 2134 times</div>
+                                <div class="text">Repositories have been deployed 2135 times</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
