@@ -344,7 +344,7 @@ My next step is to run your grammar through the parser and double check that it'
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="612.3636666666666 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="612.3533333333334 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
@@ -367,9 +367,9 @@ My next step is to run your grammar through the parser and double check that it'
                                 <div class="title">
                                     <span class="prefix">Master</span>
                                     maintainer
-                                    <span class="gh">ranked 128 out of 231m repositories</span>
+                                    <span class="gh">ranked 128 out of 229m repositories</span>
                                 </div>
-                                <div class="text">Maintaining a repository with 69261 stars</div>
+                                <div class="text">Maintaining a repository with 69260 stars</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -382,7 +382,7 @@ My next step is to run your grammar through the parser and double check that it'
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="119.86666666666666 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="119.97 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -404,7 +404,7 @@ My next step is to run your grammar through the parser and double check that it'
                                     <span class="prefix">Master</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 2160 times</div>
+                                <div class="text">Repositories have been deployed 2161 times</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -581,7 +581,7 @@ My next step is to run your grammar through the parser and double check that it'
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     developer
-                                    <span class="gh">ranked 995k out of 151m users</span>
+                                    <span class="gh">ranked 995k out of 150m users</span>
                                 </div>
                                 <div class="text">Published 43 public repositories</div>
                             </div>
