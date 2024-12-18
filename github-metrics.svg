@@ -43,7 +43,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            1246 Commits
+                            1247 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -114,14 +114,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="182.97809191362842" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="182.97809191362842" y="0" width="114.98942812041173" height="8" fill="#DA5B0B"/>
-                    <rect mask="url(#languages-bar)" x="297.96752003404015" y="0" width="36.921836381449175" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="334.8893564154893" y="0" width="32.79336637538184" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="367.68272279087114" y="0" width="27.66811915099271" height="8" fill="#178600"/>
-                    <rect mask="url(#languages-bar)" x="395.35084194186385" y="0" width="24.55454958539846" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="419.9053915272623" y="0" width="23.07207001342169" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="442.977461540684" y="0" width="17.022538459315992" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="182.97857251671806" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="182.97857251671806" y="0" width="114.98973014713994" height="8" fill="#DA5B0B"/>
+                    <rect mask="url(#languages-bar)" x="297.96830266385797" y="0" width="36.92193335889852" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="334.8902360227565" y="0" width="32.79345250915356" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="367.68368853191004" y="0" width="27.668191822990813" height="8" fill="#178600"/>
+                    <rect mask="url(#languages-bar)" x="395.35188035490086" y="0" width="24.553405861433156" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="419.905286216334" y="0" width="23.072130613617144" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="442.97741682995115" y="0" width="17.0225831700488" height="8" fill="#663399"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -337,7 +337,7 @@ My next step is to run your grammar through the parser and double check that it'
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="613.9033333333333 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="613.9343333333333 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
@@ -360,9 +360,9 @@ My next step is to run your grammar through the parser and double check that it'
                                 <div class="title">
                                     <span class="prefix">Master</span>
                                     maintainer
-                                    <span class="gh">ranked 127 out of 230m repositories</span>
+                                    <span class="gh">ranked 127 out of 226m repositories</span>
                                 </div>
-                                <div class="text">Maintaining a repository with 69410 stars</div>
+                                <div class="text">Maintaining a repository with 69413 stars</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -375,7 +375,7 @@ My next step is to run your grammar through the parser and double check that it'
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="127.20333333333333 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="127.30666666666667 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -397,7 +397,7 @@ My next step is to run your grammar through the parser and double check that it'
                                     <span class="prefix">Master</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 2231 times</div>
+                                <div class="text">Repositories have been deployed 2232 times</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -410,7 +410,7 @@ My next step is to run your grammar through the parser and double check that it'
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="93.16974674880218 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="93.25462012320331 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -517,7 +517,7 @@ My next step is to run your grammar through the parser and double check that it'
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="65.72 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="66.03 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" fill-rule="evenodd">
@@ -536,7 +536,7 @@ My next step is to run your grammar through the parser and double check that it'
                                     <span class="prefix">Super</span>
                                     stargazer
                                 </div>
-                                <div class="text">Starred 712 repositories</div>
+                                <div class="text">Starred 713 repositories</div>
                             </div>
                         </div>
                         <div class="achievement b largeable-width-half">
@@ -574,7 +574,7 @@ My next step is to run your grammar through the parser and double check that it'
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     developer
-                                    <span class="gh">ranked 996k out of 151m users</span>
+                                    <span class="gh">ranked 996k out of 150m users</span>
                                 </div>
                                 <div class="text">Published 43 public repositories</div>
                             </div>
