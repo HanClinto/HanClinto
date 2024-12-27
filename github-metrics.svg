@@ -334,7 +334,7 @@ Remove unnecessary "AT" from the modem command -- this was preventing the modem 
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="149.10999999999999 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="149.21333333333334 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -356,7 +356,7 @@ Remove unnecessary "AT" from the modem command -- this was preventing the modem 
                                     <span class="prefix">Master</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 2443 times</div>
+                                <div class="text">Repositories have been deployed 2444 times</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -533,7 +533,7 @@ Remove unnecessary "AT" from the modem command -- this was preventing the modem 
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     developer
-                                    <span class="gh">ranked 999k out of 145m users</span>
+                                    <span class="gh">ranked 999k out of 144m users</span>
                                 </div>
                                 <div class="text">Published 43 public repositories</div>
                             </div>
