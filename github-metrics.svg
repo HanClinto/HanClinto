@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1147" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1091" class="">
     <defs>
         <style/>
     </defs>
@@ -203,6 +203,19 @@
                                     </svg>
                                     <div class="content">
                                         Starred
+                                        <span class="repo">whyboris/Gravity-Wars</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Starred
                                         <span class="repo">hsfzxjy/Harfbuzz-WASM-Fantasy</span>
                                     </div>
                                 </div>
@@ -259,24 +272,6 @@
                                 </div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#10956 Eval bug: qwen2-vl-2B on jetson agx orin ; try to allocate  655521.35 MB memory</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by chaoszzz123 in <span class="repo">ggerganov/llama.cpp</span></div>
-                                    <div class="comment">Looks like a simple case of trying to load a model that's too big for your system, and running out of memory.
-If you want to try again, you might consider using a quantized model that is more efficient for memory (looks like some pre-built quantized models of your chosen model are already available on HF -- start with Q4_0 and see if that works for you -- also note the other instructions on that page), and possibly note other restrictions when attempting to load models larger than your available RAM (i.e., are you unknowingly turning off mmap?).</div>
-                                </div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
@@ -299,7 +294,7 @@ If you want to try again, you might consider using a quantized model that is mor
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="621.5086666666666 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="621.519 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g transform="translate(4 4)" fill="none" fill-rule="evenodd">
@@ -322,9 +317,9 @@ If you want to try again, you might consider using a quantized model that is mor
                                 <div class="title">
                                     <span class="prefix">Master</span>
                                     maintainer
-                                    <span class="gh">ranked 127 out of 233m repositories</span>
+                                    <span class="gh">ranked 127 out of 229m repositories</span>
                                 </div>
-                                <div class="text">Maintaining a repository with 70146 stars</div>
+                                <div class="text">Maintaining a repository with 70147 stars</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -337,7 +332,7 @@ If you want to try again, you might consider using a quantized model that is mor
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="166.88333333333333 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="166.98666666666665 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -359,7 +354,7 @@ If you want to try again, you might consider using a quantized model that is mor
                                     <span class="prefix">Master</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 2615 times</div>
+                                <div class="text">Repositories have been deployed 2616 times</div>
                             </div>
                         </div>
                         <div class="achievement s largeable-width-half">
@@ -372,7 +367,7 @@ If you want to try again, you might consider using a quantized model that is mor
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="94.52772073921969 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="94.61259411362082 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -479,7 +474,7 @@ If you want to try again, you might consider using a quantized model that is mor
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="69.13 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="69.44 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" fill-rule="evenodd">
@@ -498,7 +493,7 @@ If you want to try again, you might consider using a quantized model that is mor
                                     <span class="prefix">Super</span>
                                     stargazer
                                 </div>
-                                <div class="text">Starred 723 repositories</div>
+                                <div class="text">Starred 724 repositories</div>
                             </div>
                         </div>
                         <div class="achievement b largeable-width-half">
@@ -536,7 +531,7 @@ If you want to try again, you might consider using a quantized model that is mor
                                 <div class="title">
                                     <span class="prefix">Great</span>
                                     developer
-                                    <span class="gh">ranked 1m out of 111m users</span>
+                                    <span class="gh">ranked 1m out of 150m users</span>
                                 </div>
                                 <div class="text">Published 43 public repositories</div>
                             </div>
