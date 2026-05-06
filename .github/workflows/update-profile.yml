@@ -1,0 +1,37 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: "22 5,17 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Update README from blog
+        run: python .github/scripts/update_readme_from_blog.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          BLOG_URL: https://blog.hanclin.to/
+          BLOG_REPOSITORY: HanClinto/SimpleGitBlog
+          MAX_BLOG_POSTS: "3"
+          GITHUB_CONTRIBUTIONS_USER: HanClinto
+          MAX_GITHUB_CONTRIBUTIONS: "3"
+
+      - name: Commit README changes
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: Update profile blog feed
+          file_pattern: README.md
