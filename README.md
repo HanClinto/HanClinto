@@ -5,11 +5,11 @@ _Artificially Intelligent, Naturally Curious_
 ## Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [May the 4th, y'all](https://blog.hanclin.to/posts/gh-29/) - May 4, 2026 | ✍️ BLOG POST
+- [May the 4th, y'all](https://blog.hanclin.to/posts/gh-29/) - May 4, 2026 | ✍️
   If we rename AI agents to "nerfs", then this can be my official job title.
-- [Collector Vision - Scanner Playground Demo (Open Source)](https://www.youtube.com/watch?v=MHieOcmC7Dw) - April 29, 2026 | 🎬 VIDEO
+- [Collector Vision - Scanner Playground Demo (Open Source)](https://www.youtube.com/watch?v=MHieOcmC7Dw) - April 29, 2026 | 🎬
   Demonstrating the latest version of CollectorVision -- my open-source card scanning library that I'm releasing to the public. This is a demonstration of my online playground demo...
-- [CollectorVision Part 8: The Sol Ring Benchmark — Testing Card Recognition on the Hardest Case](https://blog.hanclin.to/posts/gh-26/) - April 25, 2026 | ✍️ BLOG POST
+- [CollectorVision Part 8: The Sol Ring Benchmark — Testing Card Recognition on the Hardest Case](https://blog.hanclin.to/posts/gh-26/) - April 25, 2026 | ✍️
   Sol Ring is ranked 1 on EDHREC — the most-played card in Commander, by a wide margin. It also happens to be one of the hardest cards for an image recognition system to get right...
 <!-- BLOG-POST-LIST:END -->
 

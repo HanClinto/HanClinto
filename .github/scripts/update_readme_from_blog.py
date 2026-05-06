@@ -284,10 +284,19 @@ def escape_markdown(value: str) -> str:
     return value.replace("|", "\\|").replace("[", "\\[").replace("]", "\\]")
 
 
+def source_icon(source: str) -> str:
+    normalized = compact_text(source)
+    if normalized.startswith("✍️") or normalized.lower() == "blog post":
+        return "✍️"
+    if normalized.startswith("🎬") or normalized.lower() == "video":
+        return "🎬"
+    return normalized.split(" ", 1)[0] if normalized else ""
+
+
 def render_posts(posts: Iterable[BlogPost]) -> str:
     lines: list[str] = []
     for post in posts:
-        source = compact_text(post.source).upper()
+        source = source_icon(post.source)
         title = escape_markdown(post.title)
         meta_parts = [part for part in (post.date, source if source else "") if part]
         meta = f" - {' | '.join(meta_parts)}" if meta_parts else ""
