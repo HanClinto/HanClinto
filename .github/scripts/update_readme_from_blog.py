@@ -286,11 +286,15 @@ def escape_markdown(value: str) -> str:
 
 def source_icon(source: str) -> str:
     normalized = compact_text(source)
-    if normalized.startswith("✍️") or normalized.lower() == "blog post":
-        return "✍️"
-    if normalized.startswith("🎬") or normalized.lower() == "video":
-        return "🎬"
-    return normalized.split(" ", 1)[0] if normalized else ""
+    icon_parts: list[str] = []
+    for char in normalized:
+        if icon_parts:
+            if char.isspace() or ord(char) <= 127:
+                break
+            icon_parts.append(char)
+        elif ord(char) > 127:
+            icon_parts.append(char)
+    return "".join(icon_parts)
 
 
 def render_posts(posts: Iterable[BlogPost]) -> str:
