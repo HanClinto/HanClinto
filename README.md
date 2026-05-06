@@ -2,9 +2,7 @@
 
 _Artificially Intelligent, Naturally Curious_
 
-## Recent Work
-
-### Writing
+## Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
 - [May the 4th, y'all](https://blog.hanclin.to/posts/gh-29/) - May 4, 2026 | ✍️ BLOG POST
@@ -17,7 +15,7 @@ _Artificially Intelligent, Naturally Curious_
 
 [Read the full blog](https://blog.hanclin.to/)
 
-### Open Source
+## Open Source Contributions
 
 <!-- GITHUB-CONTRIBUTIONS:START -->
 [47 merged public PRs across 14 outside repositories](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+-user%3AHanClinto&type=pullrequests).
