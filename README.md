@@ -2,6 +2,13 @@
 
 _Artificially Intelligent, Naturally Curious_
 
+Welcome to my humble corner of the Internet.
+
+I'm thrilled to be here, and I hope you are too. I love all things AI / ML, and I am so excited to be on the forefront of pushing technology forward towards building a brighter, more prosperous, and uplifting future.
+
+I love contributing to open-source when I'm able. Some examples include [CollectorVision](https://github.com/HanClinto/CollectorVision) (open-source collectible card identification), [WaterPAL](https://github.com/HanClinto/WaterPAL) (low-cost monitors for water pumps, currently deployed and monitoring in multiple countries in Africa) or my [contributions to Llama.cpp](https://github.com/ggml-org/llama.cpp/pulls?q=author%3AHanClinto) where I've had a focus on [grammar](https://github.com/ggml-org/llama.cpp/pull/5948), [testing](https://github.com/ggml-org/llama.cpp/pull/6644), and [performance](https://github.com/ggml-org/llama.cpp/pull/6616).
+
+
 ## Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
