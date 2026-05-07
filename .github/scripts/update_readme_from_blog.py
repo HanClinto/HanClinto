@@ -45,9 +45,12 @@ class Contribution:
 @dataclass
 class ContributionFeed:
     contributions: list[Contribution]
+    repositories: list[str]
     repository_count: int
     pull_request_count: int
     search_url: str
+    user_repositories_url: str
+    public_repository_count: int | None
 
 
 def fetch_text(url: str, headers: dict[str, str] | None = None) -> str:
@@ -235,25 +238,64 @@ def github_contributions_url(user: str) -> str:
     })
 
 
-def posts_from_github_contributions(user: str, max_contributions: int) -> ContributionFeed:
-    empty_feed = ContributionFeed([], 0, 0, github_contributions_url(user))
-    if max_contributions <= 0:
-        return empty_feed
+def github_user_repositories_url(user: str) -> str:
+    return f"https://github.com/{user}?" + urlencode({"tab": "repositories"})
 
-    query = github_contributions_query(user)
-    api_url = (
-        "https://api.github.com/search/issues?"
-        f"{urlencode({'q': query, 'sort': 'updated', 'order': 'desc', 'per_page': 100})}"
-    )
+
+def github_headers() -> dict[str, str]:
     token = os.environ.get("GITHUB_TOKEN")
     headers = {"Accept": "application/vnd.github+json"}
     if token:
         headers["Authorization"] = f"Bearer {token}"
+    return headers
 
-    payload = json.loads(fetch_text(api_url, headers=headers))
+
+def github_public_repository_count(user: str, headers: dict[str, str]) -> int | None:
+    try:
+        payload = json.loads(fetch_text(f"https://api.github.com/users/{user}", headers=headers))
+    except (HTTPError, URLError, TimeoutError, json.JSONDecodeError, OSError):
+        return None
+    count = payload.get("public_repos")
+    return count if isinstance(count, int) else None
+
+
+def github_issue_search_items(query: str, headers: dict[str, str]) -> tuple[int, list[dict]]:
+    items: list[dict] = []
+    total_count = 0
+    page = 1
+    per_page = 100
+    while page <= 10:
+        api_url = (
+            "https://api.github.com/search/issues?"
+            + urlencode({"q": query, "sort": "updated", "order": "desc", "per_page": per_page, "page": page})
+        )
+        payload = json.loads(fetch_text(api_url, headers=headers))
+        if page == 1:
+            total_count = int(payload.get("total_count", 0))
+        page_items = payload.get("items", [])
+        if not page_items:
+            break
+        items.extend(page_items)
+        if len(items) >= min(total_count, 1000):
+            break
+        page += 1
+    return total_count, items
+
+
+def posts_from_github_contributions(user: str, max_contributions: int) -> ContributionFeed:
+    search_url = github_contributions_url(user)
+    user_repositories_url = github_user_repositories_url(user)
+    headers = github_headers()
+    public_repository_count = github_public_repository_count(user, headers)
+    empty_feed = ContributionFeed([], [], 0, 0, search_url, user_repositories_url, public_repository_count)
+    if max_contributions <= 0:
+        return empty_feed
+
+    query = github_contributions_query(user)
+    pull_request_count, items = github_issue_search_items(query, headers)
     contributions: list[Contribution] = []
     repositories: set[str] = set()
-    for item in payload.get("items", []):
+    for item in items:
         repo_url = item.get("repository_url", "")
         repository = repo_url.rsplit("/repos/", 1)[-1] if "/repos/" in repo_url else repo_url.rsplit("/", 2)[-1]
         if repository.lower().startswith(f"{user.lower()}/"):
@@ -274,9 +316,12 @@ def posts_from_github_contributions(user: str, max_contributions: int) -> Contri
             )
     return ContributionFeed(
         contributions=contributions,
+        repositories=sorted(repositories, key=str.casefold),
         repository_count=len(repositories),
-        pull_request_count=payload.get("total_count", len(contributions)),
-        search_url=github_contributions_url(user),
+        pull_request_count=pull_request_count or len(contributions),
+        search_url=search_url,
+        user_repositories_url=user_repositories_url,
+        public_repository_count=public_repository_count,
     )
 
 
@@ -313,10 +358,16 @@ def render_posts(posts: Iterable[BlogPost]) -> str:
 def render_contributions(feed: ContributionFeed) -> str:
     repo_word = "repository" if feed.repository_count == 1 else "repositories"
     pr_word = "PR" if feed.pull_request_count == 1 else "PRs"
-    lines = [
-        f"[{feed.pull_request_count} merged public {pr_word} across {feed.repository_count} outside {repo_word}]({feed.search_url}).",
-        "",
+    stat_parts = [
+        f"[{feed.pull_request_count} merged public {pr_word}]({feed.search_url})",
+        f"[{feed.repository_count} outside {repo_word}](#outside-repositories)",
     ]
+    if feed.public_repository_count is not None:
+        personal_repo_word = "repository" if feed.public_repository_count == 1 else "repositories"
+        stat_parts.append(
+            f"[{feed.public_repository_count} public personal {personal_repo_word}]({feed.user_repositories_url})"
+        )
+    lines = [" - ".join(stat_parts) + ".", ""]
     if not feed.contributions:
         lines.append("- No recent merged public PRs found.")
         return "\n".join(lines)
@@ -326,6 +377,19 @@ def render_contributions(feed: ContributionFeed) -> str:
         repository = escape_markdown(contribution.repository)
         date = f" - _({contribution.merged_at})_" if contribution.merged_at else ""
         lines.append(f"- [{title}]({contribution.url}){date} - {repository}")
+    if feed.repositories:
+        lines.extend([
+            "",
+            "<details>",
+            "<summary>Outside repositories</summary>",
+            "",
+            "<a id=\"outside-repositories\"></a>",
+            "",
+        ])
+        for repository in feed.repositories:
+            escaped_repository = escape_markdown(repository)
+            lines.append(f"- [{escaped_repository}](https://github.com/{repository})")
+        lines.append("</details>")
     return "\n".join(lines)
 
 

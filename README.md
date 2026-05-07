@@ -27,7 +27,7 @@ I love contributing to open-source when I'm able. Some examples include [Collect
 ## Open Source Contributions
 
 <!-- GITHUB-CONTRIBUTIONS:START -->
-[47 merged public PRs across 14 outside repositories](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+-user%3AHanClinto&type=pullrequests).
+[47 merged public PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+-user%3AHanClinto&type=pullrequests) - [14 outside repositories](#outside-repositories) - [48 public personal repositories](https://github.com/HanClinto?tab=repositories).
 
 - [Add Qwen3.5 to model catalog (Unsloth quants)](https://github.com/ggml-org/LlamaBarn/pull/63) - _(2026-03-13)_ - ggml-org/LlamaBarn
 - [ffmpeg compiler flag for video understanding](https://github.com/tc-mb/llama.cpp/pull/32) - _(2024-10-09)_ - tc-mb/llama.cpp
@@ -37,6 +37,27 @@ I love contributing to open-source when I'm able. Some examples include [Collect
 - [llama : update Swift and Android bindings for refactor sampling](https://github.com/ggml-org/llama.cpp/pull/8651) - _(2024-07-24)_ - ggml-org/llama.cpp
 - [Add friendlier error message to fopen errors](https://github.com/ggml-org/llama.cpp/pull/8575) - _(2024-07-19)_ - ggml-org/llama.cpp
 - [Update docs to match currently used nuclio version](https://github.com/cvat-ai/cvat/pull/8161) - _(2024-07-15)_ - cvat-ai/cvat
+
+<details>
+<summary>Outside repositories</summary>
+
+<a id="outside-repositories"></a>
+
+- [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core)
+- [cvat-ai/cvat](https://github.com/cvat-ai/cvat)
+- [dssjon/biblos](https://github.com/dssjon/biblos)
+- [facebookresearch/nle](https://github.com/facebookresearch/nle)
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
+- [ggml-org/LlamaBarn](https://github.com/ggml-org/LlamaBarn)
+- [githubteacher/developers-oct-2015](https://github.com/githubteacher/developers-oct-2015)
+- [githubteacher/everyone-oct-2015](https://github.com/githubteacher/everyone-oct-2015)
+- [githubteacher/intro-oct-2015](https://github.com/githubteacher/intro-oct-2015)
+- [magefree/mage](https://github.com/magefree/mage)
+- [ochafik/llama.cpp](https://github.com/ochafik/llama.cpp)
+- [Sigafoos/spelunky](https://github.com/Sigafoos/spelunky)
+- [tc-mb/llama.cpp](https://github.com/tc-mb/llama.cpp)
+- [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter)
+</details>
 <!-- GITHUB-CONTRIBUTIONS:END -->
 
 [See more merged PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+-user%3AHanClinto&type=pullrequests)
