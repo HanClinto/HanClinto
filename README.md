@@ -2,12 +2,15 @@
 
 _Artificially Intelligent, Naturally Curious_
 
-Welcome to my humble corner of the Internet.
+## Welcome to My Humble Corner of the Internet
 
-I'm thrilled to be here, and I hope you are too. I love all things AI / ML, and I am so excited to be on the forefront of pushing technology forward towards building a brighter, more prosperous, and uplifting future.
+I'm thrilled to be here, and I hope you are too.
 
-I love contributing to open-source when I'm able. Some examples include [CollectorVision](https://github.com/HanClinto/CollectorVision) (open-source collectible card identification), [WaterPAL](https://github.com/HanClinto/WaterPAL) (low-cost monitors for water pumps, currently deployed and monitoring in multiple countries in Africa) or my [contributions to Llama.cpp](https://github.com/ggml-org/llama.cpp/pulls?q=author%3AHanClinto) where I've had a focus on [grammar](https://github.com/ggml-org/llama.cpp/pull/5948), [testing](https://github.com/ggml-org/llama.cpp/pull/6644), and [performance](https://github.com/ggml-org/llama.cpp/pull/6616).
+I am passionate about AI / ML, practical tools, and using technology to build a brighter, more prosperous, and uplifting future.
 
+I love contributing to open source when I'm able. Recent examples include [CollectorVision](https://github.com/HanClinto/CollectorVision) (open-source collectible card identification), [WaterPAL](https://github.com/HanClinto/WaterPAL) (low-cost monitors for water pumps, currently deployed and monitoring in multiple countries in Africa), and my [contributions to Llama.cpp](https://github.com/ggml-org/llama.cpp/pulls?q=author%3AHanClinto), where I've focused on [grammar](https://github.com/ggml-org/llama.cpp/pull/5948), [testing](https://github.com/ggml-org/llama.cpp/pull/6644), and [performance](https://github.com/ggml-org/llama.cpp/pull/6616).
+
+Poke around, make yourself at home, and please feel free to reach out and introduce yourself if you'd like to get in touch.
 
 ## Recent Blog Posts
 
@@ -28,7 +31,6 @@ I love contributing to open-source when I'm able. Some examples include [Collect
 
 <!-- GITHUB-CONTRIBUTIONS:START -->
 Outside contributions: [47 merged public PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+-user%3AHanClinto&type=pullrequests) into [14 outside repositories](#outside-repositories).
-Personal projects: [48 public repositories](https://github.com/HanClinto?tab=repositories).
 
 - [Add Qwen3.5 to model catalog (Unsloth quants)](https://github.com/ggml-org/LlamaBarn/pull/63) - _(2026-03-13)_ - ggml-org/LlamaBarn
 - [ffmpeg compiler flag for video understanding](https://github.com/tc-mb/llama.cpp/pull/32) - _(2024-10-09)_ - tc-mb/llama.cpp

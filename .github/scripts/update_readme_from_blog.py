@@ -51,8 +51,6 @@ class ContributionFeed:
     repository_count: int
     pull_request_count: int
     search_url: str
-    user_repositories_url: str
-    public_repository_count: int | None
 
 
 def fetch_text(url: str, headers: dict[str, str] | None = None) -> str:
@@ -247,25 +245,12 @@ def github_repository_contributions_url(user: str, repository: str) -> str:
     })
 
 
-def github_user_repositories_url(user: str) -> str:
-    return f"https://github.com/{user}?" + urlencode({"tab": "repositories"})
-
-
 def github_headers() -> dict[str, str]:
     token = os.environ.get("GITHUB_TOKEN")
     headers = {"Accept": "application/vnd.github+json"}
     if token:
         headers["Authorization"] = f"Bearer {token}"
     return headers
-
-
-def github_public_repository_count(user: str, headers: dict[str, str]) -> int | None:
-    try:
-        payload = json.loads(fetch_text(f"https://api.github.com/users/{user}", headers=headers))
-    except (HTTPError, URLError, TimeoutError, json.JSONDecodeError, OSError):
-        return None
-    count = payload.get("public_repos")
-    return count if isinstance(count, int) else None
 
 
 def github_issue_search_items(query: str, headers: dict[str, str]) -> tuple[int, list[dict]]:
@@ -293,10 +278,8 @@ def github_issue_search_items(query: str, headers: dict[str, str]) -> tuple[int,
 
 def posts_from_github_contributions(user: str, max_contributions: int) -> ContributionFeed:
     search_url = github_contributions_url(user)
-    user_repositories_url = github_user_repositories_url(user)
     headers = github_headers()
-    public_repository_count = github_public_repository_count(user, headers)
-    empty_feed = ContributionFeed([], [], {}, {}, 0, 0, search_url, user_repositories_url, public_repository_count)
+    empty_feed = ContributionFeed([], [], {}, {}, 0, 0, search_url)
     if max_contributions <= 0:
         return empty_feed
 
@@ -335,8 +318,6 @@ def posts_from_github_contributions(user: str, max_contributions: int) -> Contri
         repository_count=len(repository_counts),
         pull_request_count=pull_request_count or len(contributions),
         search_url=search_url,
-        user_repositories_url=user_repositories_url,
-        public_repository_count=public_repository_count,
     )
 
 
@@ -380,12 +361,6 @@ def render_contributions(feed: ContributionFeed) -> str:
             f"into [{feed.repository_count} outside {repo_word}](#outside-repositories)."
         ),
     ]
-    if feed.public_repository_count is not None:
-        personal_repo_word = "repository" if feed.public_repository_count == 1 else "repositories"
-        lines.append(
-            "Personal projects: "
-            f"[{feed.public_repository_count} public {personal_repo_word}]({feed.user_repositories_url})."
-        )
     lines.append("")
     if not feed.contributions:
         lines.append("- No recent merged public PRs found.")
