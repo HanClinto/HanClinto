@@ -46,6 +46,8 @@ class Contribution:
 class ContributionFeed:
     contributions: list[Contribution]
     repositories: list[str]
+    repository_counts: dict[str, int]
+    repository_search_urls: dict[str, str]
     repository_count: int
     pull_request_count: int
     search_url: str
@@ -238,6 +240,13 @@ def github_contributions_url(user: str) -> str:
     })
 
 
+def github_repository_contributions_url(user: str, repository: str) -> str:
+    return "https://github.com/search?" + urlencode({
+        "q": f"author:{user} is:pr is:merged repo:{repository}",
+        "type": "pullrequests",
+    })
+
+
 def github_user_repositories_url(user: str) -> str:
     return f"https://github.com/{user}?" + urlencode({"tab": "repositories"})
 
@@ -287,14 +296,14 @@ def posts_from_github_contributions(user: str, max_contributions: int) -> Contri
     user_repositories_url = github_user_repositories_url(user)
     headers = github_headers()
     public_repository_count = github_public_repository_count(user, headers)
-    empty_feed = ContributionFeed([], [], 0, 0, search_url, user_repositories_url, public_repository_count)
+    empty_feed = ContributionFeed([], [], {}, {}, 0, 0, search_url, user_repositories_url, public_repository_count)
     if max_contributions <= 0:
         return empty_feed
 
     query = github_contributions_query(user)
     pull_request_count, items = github_issue_search_items(query, headers)
     contributions: list[Contribution] = []
-    repositories: set[str] = set()
+    repository_counts: dict[str, int] = {}
     for item in items:
         repo_url = item.get("repository_url", "")
         repository = repo_url.rsplit("/repos/", 1)[-1] if "/repos/" in repo_url else repo_url.rsplit("/", 2)[-1]
@@ -304,7 +313,7 @@ def posts_from_github_contributions(user: str, max_contributions: int) -> Contri
         url = item.get("html_url", "")
         if not title or not url or not repository:
             continue
-        repositories.add(repository)
+        repository_counts[repository] = repository_counts.get(repository, 0) + 1
         if len(contributions) < max_contributions:
             contributions.append(
                 Contribution(
@@ -314,10 +323,16 @@ def posts_from_github_contributions(user: str, max_contributions: int) -> Contri
                     merged_at=(item.get("closed_at") or item.get("updated_at") or "")[:10],
                 )
             )
+    repositories = sorted(repository_counts, key=lambda repository: (-repository_counts[repository], repository.casefold()))
     return ContributionFeed(
         contributions=contributions,
-        repositories=sorted(repositories, key=str.casefold),
-        repository_count=len(repositories),
+        repositories=repositories,
+        repository_counts=repository_counts,
+        repository_search_urls={
+            repository: github_repository_contributions_url(user, repository)
+            for repository in repositories
+        },
+        repository_count=len(repository_counts),
         pull_request_count=pull_request_count or len(contributions),
         search_url=search_url,
         user_repositories_url=user_repositories_url,
@@ -358,16 +373,20 @@ def render_posts(posts: Iterable[BlogPost]) -> str:
 def render_contributions(feed: ContributionFeed) -> str:
     repo_word = "repository" if feed.repository_count == 1 else "repositories"
     pr_word = "PR" if feed.pull_request_count == 1 else "PRs"
-    stat_parts = [
-        f"[{feed.pull_request_count} merged public {pr_word}]({feed.search_url})",
-        f"[{feed.repository_count} outside {repo_word}](#outside-repositories)",
+    lines = [
+        (
+            "Outside contributions: "
+            f"[{feed.pull_request_count} merged public {pr_word}]({feed.search_url}) "
+            f"into [{feed.repository_count} outside {repo_word}](#outside-repositories)."
+        ),
     ]
     if feed.public_repository_count is not None:
         personal_repo_word = "repository" if feed.public_repository_count == 1 else "repositories"
-        stat_parts.append(
-            f"[{feed.public_repository_count} public personal {personal_repo_word}]({feed.user_repositories_url})"
+        lines.append(
+            "Personal projects: "
+            f"[{feed.public_repository_count} public {personal_repo_word}]({feed.user_repositories_url})."
         )
-    lines = [" - ".join(stat_parts) + ".", ""]
+    lines.append("")
     if not feed.contributions:
         lines.append("- No recent merged public PRs found.")
         return "\n".join(lines)
@@ -386,7 +405,13 @@ def render_contributions(feed: ContributionFeed) -> str:
         ])
         for repository in feed.repositories:
             escaped_repository = escape_markdown(repository)
-            lines.append(f"- [{escaped_repository}](https://github.com/{repository})")
+            count = feed.repository_counts.get(repository, 0)
+            repository_pr_word = "PR" if count == 1 else "PRs"
+            pr_url = feed.repository_search_urls.get(repository, feed.search_url)
+            lines.append(
+                f"- [{escaped_repository}](https://github.com/{repository}) - "
+                f"[{count} merged {repository_pr_word}]({pr_url})"
+            )
         lines.append("</details>")
     return "\n".join(lines)
 

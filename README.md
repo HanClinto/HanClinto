@@ -27,7 +27,8 @@ I love contributing to open-source when I'm able. Some examples include [Collect
 ## Open Source Contributions
 
 <!-- GITHUB-CONTRIBUTIONS:START -->
-[47 merged public PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+-user%3AHanClinto&type=pullrequests) - [14 outside repositories](#outside-repositories) - [48 public personal repositories](https://github.com/HanClinto?tab=repositories).
+Outside contributions: [47 merged public PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+-user%3AHanClinto&type=pullrequests) into [14 outside repositories](#outside-repositories).
+Personal projects: [48 public repositories](https://github.com/HanClinto?tab=repositories).
 
 - [Add Qwen3.5 to model catalog (Unsloth quants)](https://github.com/ggml-org/LlamaBarn/pull/63) - _(2026-03-13)_ - ggml-org/LlamaBarn
 - [ffmpeg compiler flag for video understanding](https://github.com/tc-mb/llama.cpp/pull/32) - _(2024-10-09)_ - tc-mb/llama.cpp
@@ -41,20 +42,20 @@ I love contributing to open-source when I'm able. Some examples include [Collect
 <details>
 <summary id="outside-repositories">Outside repositories</summary>
 
-- [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core)
-- [cvat-ai/cvat](https://github.com/cvat-ai/cvat)
-- [dssjon/biblos](https://github.com/dssjon/biblos)
-- [facebookresearch/nle](https://github.com/facebookresearch/nle)
-- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
-- [ggml-org/LlamaBarn](https://github.com/ggml-org/LlamaBarn)
-- [githubteacher/developers-oct-2015](https://github.com/githubteacher/developers-oct-2015)
-- [githubteacher/everyone-oct-2015](https://github.com/githubteacher/everyone-oct-2015)
-- [githubteacher/intro-oct-2015](https://github.com/githubteacher/intro-oct-2015)
-- [magefree/mage](https://github.com/magefree/mage)
-- [ochafik/llama.cpp](https://github.com/ochafik/llama.cpp)
-- [Sigafoos/spelunky](https://github.com/Sigafoos/spelunky)
-- [tc-mb/llama.cpp](https://github.com/tc-mb/llama.cpp)
-- [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter)
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) - [21 merged PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Aggml-org%2Fllama.cpp&type=pullrequests)
+- [magefree/mage](https://github.com/magefree/mage) - [8 merged PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Amagefree%2Fmage&type=pullrequests)
+- [dssjon/biblos](https://github.com/dssjon/biblos) - [5 merged PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Adssjon%2Fbiblos&type=pullrequests)
+- [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core) - [2 merged PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Acheshire-cat-ai%2Fcore&type=pullrequests)
+- [ochafik/llama.cpp](https://github.com/ochafik/llama.cpp) - [2 merged PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Aochafik%2Fllama.cpp&type=pullrequests)
+- [cvat-ai/cvat](https://github.com/cvat-ai/cvat) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Acvat-ai%2Fcvat&type=pullrequests)
+- [facebookresearch/nle](https://github.com/facebookresearch/nle) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Afacebookresearch%2Fnle&type=pullrequests)
+- [ggml-org/LlamaBarn](https://github.com/ggml-org/LlamaBarn) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Aggml-org%2FLlamaBarn&type=pullrequests)
+- [githubteacher/developers-oct-2015](https://github.com/githubteacher/developers-oct-2015) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Agithubteacher%2Fdevelopers-oct-2015&type=pullrequests)
+- [githubteacher/everyone-oct-2015](https://github.com/githubteacher/everyone-oct-2015) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Agithubteacher%2Feveryone-oct-2015&type=pullrequests)
+- [githubteacher/intro-oct-2015](https://github.com/githubteacher/intro-oct-2015) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Agithubteacher%2Fintro-oct-2015&type=pullrequests)
+- [Sigafoos/spelunky](https://github.com/Sigafoos/spelunky) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3ASigafoos%2Fspelunky&type=pullrequests)
+- [tc-mb/llama.cpp](https://github.com/tc-mb/llama.cpp) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Atc-mb%2Fllama.cpp&type=pullrequests)
+- [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3ATyrrrz%2FDiscordChatExporter&type=pullrequests)
 </details>
 <!-- GITHUB-CONTRIBUTIONS:END -->
 
