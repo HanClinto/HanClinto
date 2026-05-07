@@ -34,6 +34,9 @@ I love contributing to open-source when I'm able. Some examples include [Collect
 - [JSON Schema to GBNF integration tests](https://github.com/ggml-org/llama.cpp/pull/7790) - _(2024-06-22)_ - ggml-org/llama.cpp
 - [Build: Fix potential race condition](https://github.com/ggml-org/llama.cpp/pull/8781) - _(2024-07-31)_ - ggml-org/llama.cpp
 - [Deprecation warning to assist with migration to new binary names](https://github.com/ggml-org/llama.cpp/pull/8283) - _(2024-07-09)_ - ggml-org/llama.cpp
+- [llama : update Swift and Android bindings for refactor sampling](https://github.com/ggml-org/llama.cpp/pull/8651) - _(2024-07-24)_ - ggml-org/llama.cpp
+- [Add friendlier error message to fopen errors](https://github.com/ggml-org/llama.cpp/pull/8575) - _(2024-07-19)_ - ggml-org/llama.cpp
+- [Update docs to match currently used nuclio version](https://github.com/cvat-ai/cvat/pull/8161) - _(2024-07-15)_ - cvat-ai/cvat
 <!-- GITHUB-CONTRIBUTIONS:END -->
 
 [See more merged PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+-user%3AHanClinto&type=pullrequests)
