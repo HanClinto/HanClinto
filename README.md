@@ -22,11 +22,11 @@ _Artificially Intelligent, Naturally Curious_
 <!-- GITHUB-CONTRIBUTIONS:START -->
 [47 merged public PRs across 14 outside repositories](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+-user%3AHanClinto&type=pullrequests).
 
-- [Add Qwen3.5 to model catalog (Unsloth quants)](https://github.com/ggml-org/LlamaBarn/pull/63) - ggml-org/LlamaBarn _(2026-03-13)_
-- [ffmpeg compiler flag for video understanding](https://github.com/tc-mb/llama.cpp/pull/32) - tc-mb/llama.cpp _(2024-10-09)_
-- [JSON Schema to GBNF integration tests](https://github.com/ggml-org/llama.cpp/pull/7790) - ggml-org/llama.cpp _(2024-06-22)_
-- [Build: Fix potential race condition](https://github.com/ggml-org/llama.cpp/pull/8781) - ggml-org/llama.cpp _(2024-07-31)_
-- [Deprecation warning to assist with migration to new binary names](https://github.com/ggml-org/llama.cpp/pull/8283) - ggml-org/llama.cpp _(2024-07-09)_
+- [Add Qwen3.5 to model catalog (Unsloth quants)](https://github.com/ggml-org/LlamaBarn/pull/63) _(2026-03-13)_ - ggml-org/LlamaBarn
+- [ffmpeg compiler flag for video understanding](https://github.com/tc-mb/llama.cpp/pull/32) _(2024-10-09)_ - tc-mb/llama.cpp
+- [JSON Schema to GBNF integration tests](https://github.com/ggml-org/llama.cpp/pull/7790) _(2024-06-22)_ - ggml-org/llama.cpp
+- [Build: Fix potential race condition](https://github.com/ggml-org/llama.cpp/pull/8781) _(2024-07-31)_ - ggml-org/llama.cpp
+- [Deprecation warning to assist with migration to new binary names](https://github.com/ggml-org/llama.cpp/pull/8283) _(2024-07-09)_ - ggml-org/llama.cpp
 <!-- GITHUB-CONTRIBUTIONS:END -->
 
 [See more merged PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+-user%3AHanClinto&type=pullrequests)

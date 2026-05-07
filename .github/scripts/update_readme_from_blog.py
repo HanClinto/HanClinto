@@ -324,10 +324,8 @@ def render_contributions(feed: ContributionFeed) -> str:
     for contribution in feed.contributions:
         title = escape_markdown(contribution.title)
         repository = escape_markdown(contribution.repository)
-        meta = f" - {repository}"
-        if contribution.merged_at:
-            meta += f" _({contribution.merged_at})_"
-        lines.append(f"- [{title}]({contribution.url}){meta}")
+        date = f" _({contribution.merged_at})_" if contribution.merged_at else ""
+        lines.append(f"- [{title}]({contribution.url}){date} - {repository}")
     return "\n".join(lines)
 
 
