@@ -381,9 +381,7 @@ def render_contributions(feed: ContributionFeed) -> str:
         lines.extend([
             "",
             "<details>",
-            "<summary>Outside repositories</summary>",
-            "",
-            "<a id=\"outside-repositories\"></a>",
+            "<summary id=\"outside-repositories\">Outside repositories</summary>",
             "",
         ])
         for repository in feed.repositories:

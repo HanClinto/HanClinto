@@ -39,9 +39,7 @@ I love contributing to open-source when I'm able. Some examples include [Collect
 - [Update docs to match currently used nuclio version](https://github.com/cvat-ai/cvat/pull/8161) - _(2024-07-15)_ - cvat-ai/cvat
 
 <details>
-<summary>Outside repositories</summary>
-
-<a id="outside-repositories"></a>
+<summary id="outside-repositories">Outside repositories</summary>
 
 - [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core)
 - [cvat-ai/cvat](https://github.com/cvat-ai/cvat)
