@@ -303,7 +303,7 @@ def render_posts(posts: Iterable[BlogPost]) -> str:
         source = source_icon(post.source)
         title = escape_markdown(post.title)
         icon = f"{source} " if source else ""
-        date = f" - _({post.date})_" if post.date else ""
+        date = f" - _({post.date})_ -" if post.date else ""
         lines.append(f"- {icon}[{title}]({post.url}){date}")
         if post.excerpt:
             lines.append(f"  {escape_markdown(truncate(post.excerpt))}")
