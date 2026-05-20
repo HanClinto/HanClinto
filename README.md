@@ -15,14 +15,14 @@ Poke around, make yourself at home, and please feel free to reach out and introd
 ## Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- ✍️ [CollectorVision Part 10: Experimental Game Support ("Lorcana, Flesh & Blood, Yugioh, oh my")](https://blog.hanclin.to/posts/gh-32/) - _(May 19, 2026)_ -
+  If you check the Milo catalogs page on HuggingFace, you'll notice a few new entries that weren't there before: - - - - - - - There are also a couple of new Magic-adjacent...
+- ✍️ [CollectorVision Part 9: Tracking Usage](https://blog.hanclin.to/posts/gh-31/) - _(May 19, 2026)_ -
+  One of my favorite things about CollectorVision is that it runs entirely offline with local inference + lookup. The only time it needs to make a network request is look up card...
 - ✍️ [Since You Arrived: Vol IV](https://blog.hanclin.to/posts/gh-30/) - _(May 8, 2026)_ -
   I was impressed with this website. It's worth your time to visit it: https://sinceyouarrived.world/taken h.t. to HN for the link + discussion
 - ✍️ [May the 4th, y'all](https://blog.hanclin.to/posts/gh-29/) - _(May 4, 2026)_ -
   If we rename AI agents to "nerfs", then this can be my official job title.
-- 🎬 [Collector Vision - Scanner Playground Demo (Open Source)](https://www.youtube.com/watch?v=MHieOcmC7Dw) - _(April 29, 2026)_ -
-  Demonstrating the latest version of CollectorVision -- my open-source card scanning library that I'm releasing to the public. This is a demonstration of my online playground demo...
-- ✍️ [CollectorVision Part 8: The Sol Ring Benchmark — Testing Card Recognition on the Hardest Case](https://blog.hanclin.to/posts/gh-26/) - _(April 25, 2026)_ -
-  Sol Ring is ranked 1 on EDHREC — the most-played card in Commander, by a wide margin. It also happens to be one of the hardest cards for an image recognition system to get right...
 <!-- BLOG-POST-LIST:END -->
 
 [Read the full blog](https://blog.hanclin.to/)
