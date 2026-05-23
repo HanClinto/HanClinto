@@ -15,14 +15,14 @@ Poke around, make yourself at home, and please feel free to reach out and introd
 ## Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- ✍️ [CollectorVision Part 10: Experimental Game Support ("Lorcana, Flesh & Blood, Yugioh, oh my")](https://blog.hanclin.to/posts/gh-32/) - _(May 19, 2026)_ -
-  If you check the Milo catalogs page on HuggingFace, you'll notice a few new entries that weren't there before: - - - - - - - There are also a couple of new Magic-adjacent...
-- ✍️ [CollectorVision Part 9: Tracking Usage](https://blog.hanclin.to/posts/gh-31/) - _(May 19, 2026)_ -
-  One of my favorite things about CollectorVision is that it runs entirely offline with local inference + lookup. The only time it needs to make a network request is look up card...
-- ✍️ [Since You Arrived: Vol IV](https://blog.hanclin.to/posts/gh-30/) - _(May 8, 2026)_ -
-  I was impressed with this website. It's worth your time to visit it: https://sinceyouarrived.world/taken h.t. to HN for the link + discussion
-- ✍️ [May the 4th, y'all](https://blog.hanclin.to/posts/gh-29/) - _(May 4, 2026)_ -
-  If we rename AI agents to "nerfs", then this can be my official job title.
+- 🎬 [Collector Vision - Scanner Playground Demo (Open Source)](https://www.youtube.com/watch?v=MHieOcmC7Dw) - _(April 29, 2026)_ -
+  Demonstrating the latest version of CollectorVision -- my open-source card scanning library that I'm releasing to the public. This is a demonstration of my online playground demo...
+- 📰 [Harrier – Microsoft Open-Sources Industry-Leading Embedding Model](https://blogs.bing.com/search/April-2026/Microsoft-Open-Sources-Industry-Leading-Embedding-Model) - _(April 7, 2026)_ -
+  Harrier – Microsoft Open-Sources Industry-Leading Embedding Model
+- 📰 ["How I Created Rosie's mRNA Vaccine Protocol"](https://x.com/paul_conyngham/article/2036940410363535823) - _(March 27, 2026)_ -
+  "How I Created Rosie's mRNA Vaccine Protocol"
+- 🎬 [New Card Identification Algorithm Experiment: Pt 2 (Faster Framerate!)](https://www.youtube.com/watch?v=80NDsxKQALs) - _(March 26, 2026)_ -
+  This new algorithm felt cute. Might delete later. Part 2! Playing around with neural networks and some new scanning algorithms. Had several people ask me about the framerate in...
 <!-- BLOG-POST-LIST:END -->
 
 [Read the full blog](https://blog.hanclin.to/)
