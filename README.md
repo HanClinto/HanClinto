@@ -15,14 +15,14 @@ Poke around, make yourself at home, and please feel free to reach out and introd
 ## Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- ✍️ ["They're Made out of Weights"](https://blog.hanclin.to/posts/gh-33/) - _(June 4, 2026)_ -
+  By Max Leiter, from the original on his blog. Jun 3, 2026 They're Made Out of Weights with apologies to Terry Bisson After Terry Bisson's "They're Made Out of Meat". "They're...
 - ✍️ [CollectorVision Part 10: Experimental Game Support ("Lorcana, Flesh & Blood, Yugioh, oh my")](https://blog.hanclin.to/posts/gh-32/) - _(May 19, 2026)_ -
   If you check the Milo catalogs page on HuggingFace, you'll notice a few new entries that weren't there before: - - - - - - - There are also a couple of new Magic-adjacent...
 - ✍️ [CollectorVision Part 9: Tracking Usage](https://blog.hanclin.to/posts/gh-31/) - _(May 19, 2026)_ -
   One of my favorite things about CollectorVision is that it runs entirely offline with local inference + lookup. The only time it needs to make a network request is look up card...
 - ✍️ [Since You Arrived: Vol IV](https://blog.hanclin.to/posts/gh-30/) - _(May 8, 2026)_ -
   I was impressed with this website. It's worth your time to visit it: https://sinceyouarrived.world/taken h.t. to HN for the link + discussion
-- ✍️ [May the 4th, y'all](https://blog.hanclin.to/posts/gh-29/) - _(May 4, 2026)_ -
-  If we rename AI agents to "nerfs", then this can be my official job title.
 <!-- BLOG-POST-LIST:END -->
 
 [Read the full blog](https://blog.hanclin.to/)
