@@ -30,8 +30,9 @@ Poke around, make yourself at home, and please feel free to reach out and introd
 ## Open Source Contributions
 
 <!-- GITHUB-CONTRIBUTIONS:START -->
-Outside contributions: [48 merged public PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+-user%3AHanClinto&type=pullrequests) into [15 outside repositories](#outside-repositories).
+Outside contributions: [49 merged public PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+-user%3AHanClinto&type=pullrequests) into [16 outside repositories](#outside-repositories).
 
+- [docs: standardize copyable command examples](https://github.com/NVIDIA/NemoClaw/pull/4759) - _(2026-06-08)_ - NVIDIA/NemoClaw
 - [Add CollectorVision model library](https://github.com/huggingface/huggingface.js/pull/2178) - _(2026-05-19)_ - huggingface/huggingface.js
 - [Add Qwen3.5 to model catalog (Unsloth quants)](https://github.com/ggml-org/LlamaBarn/pull/63) - _(2026-03-13)_ - ggml-org/LlamaBarn
 - [ffmpeg compiler flag for video understanding](https://github.com/tc-mb/llama.cpp/pull/32) - _(2024-10-09)_ - tc-mb/llama.cpp
@@ -39,7 +40,6 @@ Outside contributions: [48 merged public PRs](https://github.com/search?q=author
 - [Build: Fix potential race condition](https://github.com/ggml-org/llama.cpp/pull/8781) - _(2024-07-31)_ - ggml-org/llama.cpp
 - [Deprecation warning to assist with migration to new binary names](https://github.com/ggml-org/llama.cpp/pull/8283) - _(2024-07-09)_ - ggml-org/llama.cpp
 - [llama : update Swift and Android bindings for refactor sampling](https://github.com/ggml-org/llama.cpp/pull/8651) - _(2024-07-24)_ - ggml-org/llama.cpp
-- [Add friendlier error message to fopen errors](https://github.com/ggml-org/llama.cpp/pull/8575) - _(2024-07-19)_ - ggml-org/llama.cpp
 
 <details>
 <summary id="outside-repositories">Outside repositories</summary>
@@ -56,6 +56,7 @@ Outside contributions: [48 merged public PRs](https://github.com/search?q=author
 - [githubteacher/everyone-oct-2015](https://github.com/githubteacher/everyone-oct-2015) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Agithubteacher%2Feveryone-oct-2015&type=pullrequests)
 - [githubteacher/intro-oct-2015](https://github.com/githubteacher/intro-oct-2015) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Agithubteacher%2Fintro-oct-2015&type=pullrequests)
 - [huggingface/huggingface.js](https://github.com/huggingface/huggingface.js) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Ahuggingface%2Fhuggingface.js&type=pullrequests)
+- [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3ANVIDIA%2FNemoClaw&type=pullrequests)
 - [Sigafoos/spelunky](https://github.com/Sigafoos/spelunky) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3ASigafoos%2Fspelunky&type=pullrequests)
 - [tc-mb/llama.cpp](https://github.com/tc-mb/llama.cpp) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Atc-mb%2Fllama.cpp&type=pullrequests)
 - [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3ATyrrrz%2FDiscordChatExporter&type=pullrequests)
