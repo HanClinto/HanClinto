@@ -34,7 +34,7 @@ Outside contributions: [49 merged public PRs](https://github.com/search?q=author
 
 - [docs: standardize copyable command examples](https://github.com/NVIDIA/NemoClaw/pull/4759) - _(2026-06-08)_ - NVIDIA/NemoClaw
 - [Add CollectorVision model library](https://github.com/huggingface/huggingface.js/pull/2178) - _(2026-05-19)_ - huggingface/huggingface.js
-- [Add Qwen3.5 to model catalog (Unsloth quants)](https://github.com/ggml-org/Llama/pull/63) - _(2026-03-13)_ - ggml-org/Llama
+- [Add Qwen3.5 to model catalog (Unsloth quants)](https://github.com/ggml-org/Llama-macOS/pull/63) - _(2026-03-13)_ - ggml-org/Llama-macOS
 - [ffmpeg compiler flag for video understanding](https://github.com/tc-mb/llama.cpp/pull/32) - _(2024-10-09)_ - tc-mb/llama.cpp
 - [JSON Schema to GBNF integration tests](https://github.com/ggml-org/llama.cpp/pull/7790) - _(2024-06-22)_ - ggml-org/llama.cpp
 - [Build: Fix potential race condition](https://github.com/ggml-org/llama.cpp/pull/8781) - _(2024-07-31)_ - ggml-org/llama.cpp
@@ -51,7 +51,7 @@ Outside contributions: [49 merged public PRs](https://github.com/search?q=author
 - [ochafik/llama.cpp](https://github.com/ochafik/llama.cpp) - [2 merged PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Aochafik%2Fllama.cpp&type=pullrequests)
 - [cvat-ai/cvat](https://github.com/cvat-ai/cvat) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Acvat-ai%2Fcvat&type=pullrequests)
 - [facebookresearch/nle](https://github.com/facebookresearch/nle) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Afacebookresearch%2Fnle&type=pullrequests)
-- [ggml-org/Llama](https://github.com/ggml-org/Llama) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Aggml-org%2FLlama&type=pullrequests)
+- [ggml-org/Llama-macOS](https://github.com/ggml-org/Llama-macOS) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Aggml-org%2FLlama-macOS&type=pullrequests)
 - [githubteacher/developers-oct-2015](https://github.com/githubteacher/developers-oct-2015) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Agithubteacher%2Fdevelopers-oct-2015&type=pullrequests)
 - [githubteacher/everyone-oct-2015](https://github.com/githubteacher/everyone-oct-2015) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Agithubteacher%2Feveryone-oct-2015&type=pullrequests)
 - [githubteacher/intro-oct-2015](https://github.com/githubteacher/intro-oct-2015) - [1 merged PR](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Agithubteacher%2Fintro-oct-2015&type=pullrequests)
