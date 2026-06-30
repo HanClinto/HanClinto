@@ -15,14 +15,14 @@ Poke around, make yourself at home, and please feel free to reach out and introd
 ## Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- ✍️ [Vineguard: a tiny local co-op experiment](https://blog.hanclin.to/posts/gh-36/) - _(June 30, 2026)_ -
+  I spent parts of two days making a very small local co-op arcade game called Vineguard. It started as an entry for the CGDC Speedgame Classic 2026, which gave the project a...
 - ✍️ [Link: "Inside FAISS: Billion-Scale Similarity Search"](https://blog.hanclin.to/posts/gh-34/) - _(June 5, 2026)_ -
   I was impressed by the visualizations in this article: Inside FAISS: Billion-Scale Similarity Search I'm a big fan of semantic embeddings models -- I've used them extensively on...
 - ✍️ ["They're Made out of Weights"](https://blog.hanclin.to/posts/gh-33/) - _(June 4, 2026)_ -
   By Max Leiter, from the original on his blog. Jun 3, 2026 They're Made Out of Weights with apologies to Terry Bisson After Terry Bisson's "They're Made Out of Meat". "They're...
 - ✍️ [CollectorVision Part 10: Experimental Game Support ("Lorcana, Flesh & Blood, Yugioh, oh my")](https://blog.hanclin.to/posts/gh-32/) - _(May 19, 2026)_ -
   If you check the Milo catalogs page on HuggingFace, you'll notice a few new entries that weren't there before: - - - - - - - There are also a couple of new Magic-adjacent...
-- ✍️ [CollectorVision Part 9: Tracking Usage](https://blog.hanclin.to/posts/gh-31/) - _(May 19, 2026)_ -
-  One of my favorite things about CollectorVision is that it runs entirely offline with local inference + lookup. The only time it needs to make a network request is look up card...
 <!-- BLOG-POST-LIST:END -->
 
 [Read the full blog](https://blog.hanclin.to/)
