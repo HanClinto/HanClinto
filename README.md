@@ -15,14 +15,14 @@ Poke around, make yourself at home, and please feel free to reach out and introd
 ## Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- 🎬 [Dinnertime with Dad: Explaining Neural Network Convergence](https://www.youtube.com/watch?v=601OnYAKy7g) - _(September 2, 2026)_ -
+  in which Clint does his best to give a lesson in machine learning around the dinner table. Covers numeric representation, network layers, labeled data, training vs testing data...
 - ✍️ [Terrence Tao + ChatGPT](https://blog.hanclin.to/posts/gh-38/) - _(July 23, 2026)_ -
   This is a fascinating conversation to read -- this is Terence Tao's conversation with ChatGPT about the Jacobian Conjecture Counterexample...
 - ✍️ [The Statistical Nature of LLMs: an interactive logprobs explorer](https://blog.hanclin.to/posts/gh-37/) - _(July 21, 2026)_ -
   I'm putting together a small "Introduction to AI" presentation that I'm giving on Wednesday morning. The target audience is roughly a 50/50 mix of engineers and non-engineers, so...
 - ✍️ [Vineguard: a tiny local co-op experiment](https://blog.hanclin.to/posts/gh-36/) - _(June 30, 2026)_ -
   I spent parts of two days making a very small local co-op arcade game called Vineguard. It started as an entry for the CGDC Speedgame Classic 2026, which gave the project a...
-- ✍️ [Link: "Inside FAISS: Billion-Scale Similarity Search"](https://blog.hanclin.to/posts/gh-34/) - _(June 5, 2026)_ -
-  I was impressed by the visualizations in this article: Inside FAISS: Billion-Scale Similarity Search I'm a big fan of semantic embeddings models -- I've used them extensively on...
 <!-- BLOG-POST-LIST:END -->
 
 [Read the full blog](https://blog.hanclin.to/)
