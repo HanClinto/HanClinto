@@ -30,8 +30,9 @@ Poke around, make yourself at home, and please feel free to reach out and introd
 ## Open Source Contributions
 
 <!-- GITHUB-CONTRIBUTIONS:START -->
-Outside contributions: [49 merged public PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+-user%3AHanClinto&type=pullrequests) into [16 outside repositories](#outside-repositories).
+Outside contributions: [50 merged public PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+-user%3AHanClinto&type=pullrequests) into [16 outside repositories](#outside-repositories).
 
+- [\[Grammars\] Optimization: Single lookup, remove extra copies - 1.2x-1.3x speedup](https://github.com/ggml-org/llama.cpp/pull/26885) - _(2026-09-13)_ - ggml-org/llama.cpp
 - [docs: standardize copyable command examples](https://github.com/NVIDIA/NemoClaw/pull/4759) - _(2026-06-08)_ - NVIDIA/NemoClaw
 - [Add CollectorVision model library](https://github.com/huggingface/huggingface.js/pull/2178) - _(2026-05-19)_ - huggingface/huggingface.js
 - [Add Qwen3.5 to model catalog (Unsloth quants)](https://github.com/ggml-org/Llama-macOS/pull/63) - _(2026-03-13)_ - ggml-org/Llama-macOS
@@ -39,12 +40,11 @@ Outside contributions: [49 merged public PRs](https://github.com/search?q=author
 - [JSON Schema to GBNF integration tests](https://github.com/ggml-org/llama.cpp/pull/7790) - _(2024-06-22)_ - ggml-org/llama.cpp
 - [Build: Fix potential race condition](https://github.com/ggml-org/llama.cpp/pull/8781) - _(2024-07-31)_ - ggml-org/llama.cpp
 - [Deprecation warning to assist with migration to new binary names](https://github.com/ggml-org/llama.cpp/pull/8283) - _(2024-07-09)_ - ggml-org/llama.cpp
-- [llama : update Swift and Android bindings for refactor sampling](https://github.com/ggml-org/llama.cpp/pull/8651) - _(2024-07-24)_ - ggml-org/llama.cpp
 
 <details>
 <summary id="outside-repositories">Outside repositories</summary>
 
-- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) - [21 merged PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Aggml-org%2Fllama.cpp&type=pullrequests)
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) - [22 merged PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Aggml-org%2Fllama.cpp&type=pullrequests)
 - [magefree/mage](https://github.com/magefree/mage) - [8 merged PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Amagefree%2Fmage&type=pullrequests)
 - [dssjon/biblos](https://github.com/dssjon/biblos) - [5 merged PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Adssjon%2Fbiblos&type=pullrequests)
 - [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core) - [2 merged PRs](https://github.com/search?q=author%3AHanClinto+is%3Apr+is%3Amerged+repo%3Acheshire-cat-ai%2Fcore&type=pullrequests)
