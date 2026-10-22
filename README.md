@@ -15,14 +15,14 @@ Poke around, make yourself at home, and please feel free to reach out and introd
 ## Recent Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- ✍️ [Local models are surprisingly usable (Qwen 3.8 Flash-Next)](https://blog.hanclin.to/posts/gh-40/) - _(October 22, 2026)_ -
+  So I am setting up a local intranet for my extended family to use (file sharing, media server, etc) and I figured I'd set them all up with a free locally-hosted AI chat model for...
 - ✍️ [How to Get Started Contributing to Open Source](https://blog.hanclin.to/posts/gh-39/) - _(October 13, 2026)_ -
   "I hear, and I forget I see, and I remember I do, and I understand." I was recently asked how to get started contributing to open source. The following is my step-by-step...
 - 🎬 [VibeFarmer: Entry to the OpenAI WebMCP Challenge](https://www.youtube.com/watch?v=QP6dzTgJeZE) - _(September 4, 2026)_ -
   This is my entry to the OpenAI WebMCP Challenge. VibeFarmer is a whimsical exploration into what working alongside AI agents might look like in our day-to-day life. It also is...
 - 🎬 [Dinnertime with Dad: Explaining Neural Network Convergence](https://www.youtube.com/watch?v=601OnYAKy7g) - _(September 2, 2026)_ -
   in which Clint does his best to give a lesson in machine learning around the dinner table. Covers numeric representation, network layers, labeled data, training vs testing data...
-- ✍️ [Terrence Tao + ChatGPT](https://blog.hanclin.to/posts/gh-38/) - _(July 23, 2026)_ -
-  This is a fascinating conversation to read -- this is Terence Tao's conversation with ChatGPT about the Jacobian Conjecture Counterexample...
 <!-- BLOG-POST-LIST:END -->
 
 [Read the full blog](https://blog.hanclin.to/)
